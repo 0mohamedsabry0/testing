@@ -20,7 +20,7 @@
  "extra": {
         "laravel": {
             "providers": [
-                "mohamedsabrymohamed\\testing\\src\\shownameServiceProvider"
+                "mohamedsabrymohamed\\testing\\shownameServiceProvider"
             ]
         }
     }
