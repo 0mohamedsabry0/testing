@@ -15,7 +15,7 @@ class shownameServiceProvider extends ServiceProvider
     {
         //
 
-	$this->loadRoutesFrom(__DIR__.'showname.php');
+	$this->loadRoutesFrom(__DIR__.'/showname.php');
     }
 
     /**
