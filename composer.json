@@ -1,0 +1,28 @@
+{
+    "name": "0mohamedsabry0/testing",
+    "description": "Displays my name",
+    "authors":[
+	{ "name":"Mohamed Sabry",
+	  "email": "Mohamed.sabry@mail.com"
+	}	
+],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+	 "php": ">=5.5.9",
+        "illuminate/support": ">=5.0,<5.6"
+},
+"autoload": {
+        "psr-4": {
+            "0mohamedsabry0\\testing\\": "src"
+        }
+    },
+ "extra": {
+        "laravel": {
+            "providers": [
+                "0mohamedsabry0\\testing\\ShowMyNameServiceProvider"
+            ]
+        }
+    }
+
+}
