@@ -1,6 +1,6 @@
 <?php
 
-namespace 0mohamedsabry0\testing;
+namespace mohamedsabrymohamed\testing;
 
 use Illuminate\Support\ServiceProvider;
 
