@@ -1,5 +1,5 @@
 {
-    "name": "sabrymohamedsabry/testing",
+    "name": "mohamedsabrymohamed/testing",
     "description": "Displays my name",
     "authors":[
 	{ "name":"Mohamed Sabry",
@@ -14,13 +14,13 @@
 },
 "autoload": {
         "psr-4": {
-            "0mohamedsabry0\\testing\\": "src"
+            "mohamedsabrymohamed\\testing\\": "src"
         }
     },
  "extra": {
         "laravel": {
             "providers": [
-                "0mohamedsabry0\\testing\\ShowMyNameServiceProvider"
+                "mohamedsabrymohamed\\testing\\ShowMyNameServiceProvider"
             ]
         }
     }
